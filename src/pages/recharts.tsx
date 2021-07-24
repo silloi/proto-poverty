@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import React from 'react';
-import tw, { css } from 'twin.macro';
 import {
   LineChart,
   XAxis,
@@ -18,7 +17,7 @@ const Recharts = () => (
     <Head>
       <title>貧困可視化プロトタイプ：Recharts</title>
     </Head>
-    <div tw="mx-auto m-4 p-4 rounded bg-gray-600">
+    <div tw='mx-auto m-4 p-4 rounded bg-gray-600'>
       <main>
         <h1 tw='text-5xl text-white font-bold'>貧困可視化：Recharts</h1>
         <h2 tw='text-3xl text-white'>
