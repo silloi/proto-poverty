@@ -87,8 +87,8 @@ const Bubbles = () => {
       <Head>
         <title>貧困可視化プロトタイプ：スターチャート</title>
       </Head>
-      <div tw="h-full flex flex-col m-4 p-4 rounded bg-gray-600">
-        <div tw="h-64 w-full">
+      <div tw='h-full flex flex-col m-4 p-4 rounded bg-gray-600'>
+        <div tw='h-64 w-full'>
           <h1 tw='text-5xl text-white font-bold'>
             貧困可視化プロトタイプ：スターチャート
           </h1>
@@ -125,7 +125,7 @@ const Bubbles = () => {
             tw='w-full h-5'
           />
         </div>
-        <div tw="h-full w-full">
+        <div tw='h-full w-full'>
           <ResponsiveContainer>
             <ScatterChart
               margin={{
